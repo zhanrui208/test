@@ -21,7 +21,7 @@ namespace JERPData
             this.sqlConn = DBConnection.JSqlDBConn;
         }
         //public static string ServerName = "(local)";
-        public static string ServerName = "192.168.1.88";
+        public static string ServerName = "192.168.1.88";//"(local)"
         public static string UserName = "sa";//jyfsoft
         public static string Password = "902157";//902157
         public static string Customer = "XMH";//Soongon,Vaco，Yongshengjie,s,ToMoon,Yongshengjie
