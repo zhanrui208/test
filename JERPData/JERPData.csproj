@@ -428,6 +428,8 @@
     <Compile Include="Product\SaleReturnItems.cs" />
     <Compile Include="Product\SaleReturnNotes.cs" />
     <Compile Include="Product\SourceType.cs" />
+    <Compile Include="Product\StoreItemsOther.cs" />
+    <Compile Include="Product\StoreNotesOther.cs" />
     <Compile Include="Product\StorePlace.cs" />
     <Compile Include="Product\StoreReserve.cs" />
     <Compile Include="Product\SupplierPrdCode.cs" />

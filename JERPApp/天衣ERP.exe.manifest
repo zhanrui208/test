@@ -62,19 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>omARpEQfYAsvAB2MSLLBY7XnoMg=</dsig:DigestValue>
+        <dsig:DigestValue>CrgzsGm6s8r3X2URV63BfXWZ9f4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JERPData.dll" size="1231360">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JERPData.dll" size="1235456">
       <assemblyIdentity name="JERPData" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>SSv6X+lj3cZ9fcFxTIFQiyDmg48=</dsig:DigestValue>
+        <dsig:DigestValue>WopUhWJ0bajqS3Tln2czYMekcNs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -103,14 +103,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="天衣ERP.exe" size="8502272">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="天衣ERP.exe" size="8514048">
       <assemblyIdentity name="天衣ERP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>PLvyCJirQEBu5EYsbA3otKITHRQ=</dsig:DigestValue>
+        <dsig:DigestValue>icQWwKAqqXuJsvgj/xEj2sETnPM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

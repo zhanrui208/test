@@ -190,6 +190,24 @@
     <Compile Include="Common\FrmOtherResBuyApplyOper.designer.cs">
       <DependentUpon>FrmOtherResBuyApplyOper.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test\FrmOtherInStoreOper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmOtherInStoreOper.Designer.cs">
+      <DependentUpon>FrmOtherInStoreOper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.Designer.cs">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmOtherInStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmOtherInStore.Designer.cs">
+      <DependentUpon>FrmOtherInStore.cs</DependentUpon>
+    </Compile>
     <Compile Include="Supply\Material\Report\Bill\FrmBuyApplyOrderNote.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -7271,6 +7289,15 @@
     <EmbeddedResource Include="Common\FrmOtherResBuyApplyOper.resx">
       <DependentUpon>FrmOtherResBuyApplyOper.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmOtherInStoreOper.resx">
+      <DependentUpon>FrmOtherInStoreOper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTest.resx">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\FrmOtherInStore.resx">
+      <DependentUpon>FrmOtherInStore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Supply\Material\Report\Bill\FrmBuyApplyOrderNote.resx">
       <DependentUpon>FrmBuyApplyOrderNote.cs</DependentUpon>

@@ -197,7 +197,6 @@ namespace JERPApp.Store.OtherRes
             drowNew["UnitName"] = drow["UnitName"];
             drowNew["Quantity"] = 0;
             this.dtblItems.Rows.Add(drowNew);
-
         }
 
 

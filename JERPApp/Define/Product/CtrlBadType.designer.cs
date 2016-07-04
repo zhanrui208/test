@@ -39,17 +39,17 @@
             this.cmbItem.FormattingEnabled = true;
             this.cmbItem.Location = new System.Drawing.Point(0, 0);
             this.cmbItem.Name = "cmbItem";
-            this.cmbItem.Size = new System.Drawing.Size(140, 20);
+            this.cmbItem.Size = new System.Drawing.Size(143, 20);
             this.cmbItem.TabIndex = 0;
             // 
-            // CtrlShift
+            // CtrlBadType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.Controls.Add(this.cmbItem);
-            this.Name = "CtrlShift";
-            this.Size = new System.Drawing.Size(140, 23);
+            this.Name = "CtrlBadType";
+            this.Size = new System.Drawing.Size(143, 23);
             this.ResumeLayout(false);
 
         }

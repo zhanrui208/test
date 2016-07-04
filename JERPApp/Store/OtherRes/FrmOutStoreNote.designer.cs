@@ -36,14 +36,14 @@
             this.lnkNew = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.dgrdv = new JCommon.MyDataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pbar = new JCommon.PagebreakNav();
             this.ColumnbtnDetail = new System.Windows.Forms.DataGridViewButtonColumn();
             this.ColumnNoteCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnDateNote = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnDeptName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnMakerPsn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnMemo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pbar = new JCommon.PagebreakNav();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgrdv)).BeginInit();
             this.panel2.SuspendLayout();
@@ -57,7 +57,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(639, 61);
+            this.panel1.Size = new System.Drawing.Size(701, 61);
             this.panel1.TabIndex = 1;
             // 
             // ctrlNoteSearch
@@ -125,28 +125,8 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
             this.dgrdv.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgrdv.RowTemplate.Height = 23;
-            this.dgrdv.Size = new System.Drawing.Size(639, 416);
+            this.dgrdv.Size = new System.Drawing.Size(701, 403);
             this.dgrdv.TabIndex = 6;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.pbar);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 477);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(639, 30);
-            this.panel2.TabIndex = 7;
-            // 
-            // pbar
-            // 
-            this.pbar.AutoSize = true;
-            this.pbar.Location = new System.Drawing.Point(0, 3);
-            this.pbar.Name = "pbar";
-            this.pbar.PageInBlock = 10;
-            this.pbar.PageIndex = 0;
-            this.pbar.PageSize = 30;
-            this.pbar.Size = new System.Drawing.Size(406, 27);
-            this.pbar.TabIndex = 1;
             // 
             // ColumnbtnDetail
             // 
@@ -198,11 +178,31 @@
             this.ColumnMemo.ReadOnly = true;
             this.ColumnMemo.Width = 150;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.pbar);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 464);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(701, 30);
+            this.panel2.TabIndex = 7;
+            // 
+            // pbar
+            // 
+            this.pbar.AutoSize = true;
+            this.pbar.Location = new System.Drawing.Point(0, 3);
+            this.pbar.Name = "pbar";
+            this.pbar.PageInBlock = 10;
+            this.pbar.PageIndex = 1;
+            this.pbar.PageSize = 30;
+            this.pbar.Size = new System.Drawing.Size(406, 27);
+            this.pbar.TabIndex = 1;
+            // 
             // FrmOutStoreNote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(639, 507);
+            this.ClientSize = new System.Drawing.Size(701, 494);
             this.Controls.Add(this.dgrdv);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
